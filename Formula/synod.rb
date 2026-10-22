@@ -1,22 +1,22 @@
 class Synod < Formula
   desc "Compiler for the Synod language"
   homepage "https://github.com/synodlang/compiler"
-  version "0.2.5"
+  version "0.2.6"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/synodlang/compiler/releases/download/v0.2.5/synod-v0.2.5-darwin-universal.tar.gz"
-    sha256 "db38ec67f6f19450e4745f6257fd6066a9c1180a603bd20d81d72373eb27452b"
+    url "https://github.com/synodlang/compiler/releases/download/v0.2.6/synod-v0.2.6-darwin-universal.tar.gz"
+    sha256 "35ed7b6b6efed124691f9d22be364b881302a18918ee565355416c35b1a564c3"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/synodlang/compiler/releases/download/v0.2.5/synod-v0.2.5-linux-arm64.tar.gz"
-      sha256 "2fcd4e52aefd5a9d5e68b8c389861ad91eb52d24650b3cd9c609dd3c63d551e9"
+      url "https://github.com/synodlang/compiler/releases/download/v0.2.6/synod-v0.2.6-linux-arm64.tar.gz"
+      sha256 "f3274018831adaa1b883d1c3c23067fb24d8246d56db9883d5e58465bee12535"
     end
     on_intel do
-      url "https://github.com/synodlang/compiler/releases/download/v0.2.5/synod-v0.2.5-linux-amd64.tar.gz"
-      sha256 "a14196b7b259ee7fe6b848b57b42c6e511176f1a0b1dfcc5d0a2251627f05a90"
+      url "https://github.com/synodlang/compiler/releases/download/v0.2.6/synod-v0.2.6-linux-amd64.tar.gz"
+      sha256 "b41261cabd954070281867e04b48fc5acc2bd93c9c84f9133f72e822c48e3661"
     end
   end
 
